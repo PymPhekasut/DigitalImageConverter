@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                               
+    "module": "commonjs",                               
+    "esModuleInterop": true,                            
+    "strict": false,                                                             
+  },
+  "include": ["src/**/*", 
+    "src/.d.ts",
+    "index.d.ts", "typings.d.ts"  ],
+  "exclude": ["node_modules","__tests__/**/*"]
+}
